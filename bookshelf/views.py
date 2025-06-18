@@ -10,3 +10,4 @@ class BookViewSet(viewsets.ModelViewSet):
     filter_backends = [filters.SearchFilter, filters.OrderingFilter]
     search_fields = ['title', 'author']
     ordering_fields = ['published_date', 'title']
+ 
